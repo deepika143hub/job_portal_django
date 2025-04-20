@@ -1,0 +1,16 @@
+<!-- templates/core/job_list.html -->
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Available Jobs</h1>
+
+{% for job in jobs %}
+  <div class="job-box">
+    <h2><a href="{% url 'job_detail' job.id %}">{{ job.title }}</a></h2>
+    <p><strong>{{ job.company_name }}</strong> — {{ job.location }}</p>
+    <p>{{ job.description|truncatewords:20 }}</p>
+  </div>
+{% empty %}
+  <p>No jobs available at the moment.</p>
+{% endfor %}
+{% endblock %}
