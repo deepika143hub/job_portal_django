@@ -45,10 +45,3 @@ python manage.py migrate
 
 **Deepika**  
 GitHub: [deepika143hub](https://github.com/deepika143hub)
-
-python manage.py runserver
-
-## 🙋‍♀️ Author
-
-**Deepika**  
-GitHub: [deepika143hub](https://github.com/deepika143hub)
