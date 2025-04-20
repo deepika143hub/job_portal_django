@@ -39,6 +39,13 @@ git clone https://github.com/deepika143hub/job_portal_django.git
 cd job_portal_django
 pip install -r requirements.txt
 python manage.py migrate
+---
+
+## 🙋‍♀️ Author
+
+**Deepika**  
+GitHub: [deepika143hub](https://github.com/deepika143hub)
+
 python manage.py runserver
 
 ## 🙋‍♀️ Author
